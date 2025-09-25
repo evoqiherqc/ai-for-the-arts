@@ -2,4 +2,4 @@
 This *cool* repository is for practicing GitHub.
 
 
-I'm using this repository to improve my GitHub sklls for my course! Woohoooooo!
+I'm using this repository to improve my GitHub skills for my course! Woohoooooo!
