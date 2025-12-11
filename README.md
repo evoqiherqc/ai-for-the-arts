@@ -1,43 +1,53 @@
 # AI for the Arts and Humanities: A Critical Portfolio
-**Author:** [ID]
+**Author:** [INSERT GUID HERE]
 
 ## Project Overview
-This portfolio is a record of my attempt to make sense of some fairly basic and central coding and machine learning ideas, whilst using AI as an assistant. I reflect on what went well and what went badly, and the impact of using Microsoft Copilot.
+This portfolio documents my journey from basic Python literacy to a critical analysis of Machine Learning, framed through a Humanities lens. It is a record of my attempt to make sense of central coding concepts whilst being a critical observer of the AI tools (Microsoft/Github Copilot) assisting me.
 
-The goal wasn't just to make code that "works," but to understand *why* it works and, more importantly, where it fails.
+The document serves two purposes: to demonstrate my competence in Python and Machine Learning theory, and to provide an honest reflection of the pros and cons involved in using Generative AI for academic work.
+
+### Project Goals
+* To prove I can read, interpret, and modify Python code for multimedia and data analysis.
+* To demonstrate a basic understanding of how Machine Learning works.
+* To document and reflect upon my experience of using AI assistance.
+* To analyse and reflect upon the social, cultural, and structural implications of AI being used in the real world.
+* To use what I have learned to propose, justify, and consider the implications of my own idea for an application that uses an LLM.
+
+---
 
 ## Portfolio Structure
-The work is organized into three core components:
 
 ### 1. Foundational Skills (`coding_exercises.ipynb`)
 This is where I started. The goal was to prove I could actually read code, not just copy-paste it.
-* I tried to move away from technical computer science terms where I couldl, and move towards analogies and familiar themes to improve my understanding and memory of new ideas
-* It covers Python fundamentals (Variables, Loops, Functions) and multimedia processing (images/audio)
+* I tried to move away from technical computer science terms where I could, and move towards analogies and familiar themes to improve my understanding and memory of new ideas.
+* It covers Python fundamentals (Variables, Loops, Functions) and multimedia processing (images/audio).
 
 ### 2. Critical Machine Learning (`Machine-Learning-by-Example-from-Start-to-End.ipynb`)
-This was more of a deep dive that included more reflection on impacts and ideas. I took standard ML workflows (Housing Prices & MNIST Digits) and critiqued them and tried to understaand them by involving my own thoughts and ideas.
-* I used the Caledonian MacBrayne ferry crisis to explain Omitted Variable Bias (showing how can AI miss context).
-* I argued that AI potentially  "sanitises" culture by grouping art by Label rather than Vibe, for example by neglecting the nuance different artworks.
+This was more of a deep dive that included more reflection on impacts and ideas. I took standard ML workflows (Housing Prices & MNIST Digits) and critiqued them and tried to understand them by involving my own thoughts and ideas.
+* I used the Caledonian MacBrayne ferry crisis to explain Omitted Variable Bias (showing how AI can miss context).
+* I argued that AI potentially "sanitises" culture by grouping art by Label rather than Vibe, for example by neglecting the nuance of different artworks.
 * It documents my specific struggles with Tensorflow Playground, discussing my failures and successes.
 
 ### 3. Conceptual Design (`LLM_Design_Proposal.ipynb`)
 *Note: This section is the final capstone (Part 4).*
-A proposal for the **"Socratic Sparring Partner."** Instead of an AI that answers questions (which risks causing cognitive atrophy), this is a design for an AI specifically programmed to challenge the user, acting as a Devil's Advocate to improve critical thinking.z
+A proposal for the **"Socratic Sparring Partner."** Instead of an AI that answers questions (which risks causing cognitive atrophy), this is a design for an AI specifically programmed to challenge the user, acting as a Devil's Advocate to improve critical thinking.
 
 ---
 
-## Critical Reflection on AI Assistance
-I used AI tools (Microsoft/Github Copilot) throughout this project, a coding partner/teacher, as a formatting assistant and note maker (I could give a big messy free flow of thoughts and ideas at each stage of reflection and it could organise my thoughts). Using AI was a bit of double edged sword; sometimes it improved my unuderstanding and saved me time; other times it made errors, confused me, and ended up wasting time.
+## Reflection on AI Assistance
+I used AI tools (Microsoft/Github Copilot) throughout this project as a coding partner/teacher, and as a formatting assistant and note maker. Using AI was a bit of a double edged sword; sometimes it improved my understanding and saved me time; other times it made errors, confused me, and ended up wasting time.
 
 ### The Pros
-* **Code Explanation:** It was excellent at breaking down code. I could highlight a specific chunk that confused me, and it would explain line-by-line what was happening. It helped me understand *how* the code worked rather than just providing a solution, acting almost like a tutor.
-* **Structuring Thoughts:** It acted as a very efficient secretary. I could dump a messy stream of consciousness—especially for the Machine Learning reflections—and it would tidy those notes into bullet points or coherent themes without losing my original points. This allowed me to focus on the ideas rather than the formatting.
-* **Metaphor Extension:** It was good at "playing along" with my analogies. When I suggested comparing data diversity to an **"Immune System,"** it didn't reject the idea. Instead, it helped me map that metaphor to the technical concepts of *Domain Shift* and *Generalization*, which helped solidify my understanding.
+* It helped me move from just "surviving" Python to actually learning it. Acting like a tutor, it patched small gaps in my knowledge instantly, meaning I didn't have to break flow to Google things. I could highlight a specific chunk that confused me, and it would explain line-by-line what was happening. It would often build those explanations directly into the code as comments, meaning when I looked back later (like in my codebook), I could see exactly what each bit did.
+* The main benefit was the freedom to ramble. I could just relax and think out loud (using speech to text) in a "brain dump" - especially for the Machine Learning section - knowing the AI would capture my messy free flow of thoughts and organise them into themes for me. It acted as a formatting assistant and note maker, allowing me to be more genuinely thoughtful and creative without worrying about structure. It saved me time while letting my mind wander.
+* It was great at adapting to my train of thought. When I used the "Immune System" analogy, it reworked its technical explanations to fit my metaphor, mapping it to concepts like *Domain Shift* and *Generalisation*. Being able to extend that metaphor myself became proof that I actually understood the underlying concept.
 
 ### The Cons
-* **Gaslighting:** The most frustrating part was when the AI hallucinated that code was working when it wasn't. When I flagged an error, it would often insist the code was correct and suggest the problem was my laptop settings or software. After wasting time chasing these ghosts, I’d usually find out the error was just a simple syntax typo the AI had missed.
-* **Context Blindness:** The AI constantly forgot who the audience was. It defaulted to "Computer Science" efficiency, trying to make every line of code as short as possible. I had to constantly fight it to keep my verbose, descriptive variable names (like `archive_box` instead of `x`) so that a Historian could actually read and understand the work.
-* **The "Yes Man":** It struggled to be a critic. If I suggested a bad idea, it would often prioritize being "helpful" over being "right," generating code for a flawed approach rather than warning me it wouldn't work. It reinforced that I couldn't autopilot; without human oversight, it would have happily led the project off a cliff.
+* The worst part was the time wasted and the hit to my confidence. When the AI hallucinated that code was working (when it wasn't), it would often "gaslight" me - insisting the code was correct and telling me to check my laptop settings or reinstall software. I’d find myself trapped in technical rabbit holes, putting blind faith in a machine that couldn't see. After hours chasing ghosts, I’d usually find out the error was just a simple syntax typo it had missed. It made me doubt myself before I doubted the code.
+* Correcting its variable names became dull. The AI constantly forgot who the audience was, defaulting to "Computer Science" efficiency and trying to make every line as short as possible. I had to constantly fight it to keep my descriptive variable names (like `archive_box` instead of `x`) so that an amateur - like a Historian, or me! - could actually read and understand the work.
+* It struggled to be a critic. It has a default "positivity bias" where it prioritises being nice over being useful. If I suggested a bad idea, it would generate code for a flawed approach rather than warning me it wouldn't work. It reinforced that I couldn't autopilot; without human oversight, it would have happily led the project off a cliff.
+* The fear of it being wrong never really leaves. If I make a mistake myself, I lose a mark. But with AI, there is a constant anxiety that if I miss a hallucination, I might submit nonsense or face academic penalties. It raises the stakes of every error, meaning I could never fully relax.
+* Finally, it made time management difficult. If I got lucky with a prompt, my working time was massively reduced. Conversely, if it sent me on a wild goose chase, a task would take twice as long as expected. It made predicting my output impossible; sometimes I would walk away from my work feeling very accomplished, and other times I would feel like no progress had been made at all.
 
 ### Workarounds & Takeaways
 * I found that if I accused the AI of being wrong, it often got defensive or stubborn. It worked much better if I explained *why* I thought it was wrong and asked it some reflective questions; same as a human. If it got stuck in a loop, I learned to force a "break." I would change the topic entirely - asking it about the Arsenal game, the health benefits of fermented foods, or the origins of Halloween. When I returned to the code or the conversation after this "reset," it was often more responsive and open to new ideas - again probably the same as a human.
