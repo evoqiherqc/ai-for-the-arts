@@ -1,4 +1,4 @@
-# AI for the Arts and Humanities: A Critical Portfolio
+# AI for the Arts and Humanities: Portfolio
 **Author:** 2784359
 
 ## Project Overview
