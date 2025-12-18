@@ -28,9 +28,10 @@ This was more of a deep dive that included more reflection on impacts and ideas.
 * I argued that AI potentially "sanitises" culture by grouping art by Label rather than Vibe, for example by neglecting the nuance of different artworks.
 * It documents my specific struggles with Tensorflow Playground, discussing my failures and successes.
 
-### 3. Conceptual Design (`LLM_Design_Proposal.ipynb`)
-*Note: This section is the final capstone (Part 4).*
-A proposal for the **"Socratic Sparring Partner."** Instead of an AI that answers questions (which risks causing cognitive atrophy), this is a design for an AI specifically programmed to challenge the user, acting as a Devil's Advocate to improve critical thinking.
+### 3. LLM: Creative Design 
+Concept: A browser extension acting as a "Side-Car" to fight filter bubbles. It features a Bias Barometer to flag one-sided content and generates counter-arguments with a Validity Score to challenge confirmation bias.
+
+Technical Implementation: Uses a Local RAG (Retrieval Augmented Generation) framework. Instead of relying on the LLM's memory (which hallucinates), it uses the LLM as a reasoning engine to drive a privacy-focused external search for real-world counter-evidence.
 
 ---
 
