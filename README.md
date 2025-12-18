@@ -1,5 +1,5 @@
 # AI for the Arts and Humanities: A Critical Portfolio
-**Author:** [INSERT GUID HERE]
+**Author:** 2784359
 
 ## Project Overview
 This portfolio documents my journey from basic Python literacy to a critical analysis of Machine Learning, framed through a Humanities lens. It is a record of my attempt to make sense of central coding concepts whilst being a critical observer of the AI tools (Microsoft/Github Copilot) assisting me.
